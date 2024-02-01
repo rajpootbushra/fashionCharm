@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "535727447828",
+    "project_id": "fashioncharm-b4969",
+    "storage_bucket": "fashioncharm-b4969.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535727447828:android:3e37f53e6b2db8d964ac01",
+        "android_client_info": {
+          "package_name": "com.example.fashioncharm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIBirb27N8B2B4aL20DWYK8tZiWSIwxSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

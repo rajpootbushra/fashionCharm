@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/discover_your_style"
+        android:layout_margin="60dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+         />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/discover"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_started"
+        android:padding="18dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnstart"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/already_have_an_account"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:layout_marginLeft="90dp"
+           />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/purple"
+            android:id="@+id/tvsignup"
+           />
+    </LinearLayout>
+</LinearLayout>

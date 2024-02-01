@@ -1,0 +1,49 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shopping Cart"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remove All"
+            android:textColor="#D32F2F"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:layout_marginLeft="110dp"
+            android:id="@+id/tvremoveAll"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewCart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnConfirmOrder"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnConfirmOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Order"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#FF5722"/>
+
+</RelativeLayout>
